@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://quickhire-backend.onrender.com/api", // change to your backend URL if needed
+  baseURL: "https://quickhire-backend-5ey7.onrender.com/api", // change to your backend URL if needed
 });
 
 API.interceptors.request.use((req) => {
