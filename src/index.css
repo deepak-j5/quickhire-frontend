@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-glass {
+  @apply bg-white/30 backdrop-blur-md rounded-xl shadow-xl p-6;
+}
